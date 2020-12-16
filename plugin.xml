@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-gms-support"
+        version="1.0.2">
+
+  <name>GMSSupport</name>
+
+  <js-module src="www/GMSSupport.js" name="GMSSupport">
+    <clobbers target="GMSSupport" />
+  </js-module>
+
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="GMSSupport">
+        <param name="android-package" value="org.apache.cordova.gmssupport.GMSSupport"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/GMSSupport.java" target-dir="src/org/apache/cordova/gms-support"/>
+  </platform>
+</plugin>

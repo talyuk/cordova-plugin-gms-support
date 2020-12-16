@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-gms-support",
+  "version": "1.0.2",
+  "description": "Cordova plugin to check if Google Play Services are supported",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talyuk/cordova-plugin-gms-support.git"
+  },
+  "cordova": {
+    "id": "cordova-plugin-gms-support",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "services",
+    "google",
+    "play",
+    "gms"
+  ],
+  "author": "Alexander Talyuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talyuk/cordova-plugin-gms-support/issues"
+  },
+  "homepage": "https://github.com/talyuk/cordova-plugin-gms-support#readme"
+}
